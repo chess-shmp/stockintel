@@ -432,22 +432,26 @@ width:70px;
 /* MOBILE */
 /* ========================= */
 
-@media (max-width: 480px){
+@media(max-width:768px){
 
-.navbar{
-padding:15px 4%;
+.menu-toggle{
+display:block;
+font-size:30px;
 }
 
-.logo{
-gap:8px;
+#mobileMenu{
+display:none;
 }
 
-.logo img{
-width:40px;
+.contact-btn{
+padding:10px 16px;
+font-size:13px;
 }
 
 .logo h2{
-font-size:20px;
+font-size:28px;
+}
+
 }
 
 .contact-btn{
