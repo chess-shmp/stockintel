@@ -47,94 +47,64 @@ Join Elite
 
 <div class="hero-text">
 
-<span>ELITE MARKET INTELLIGENCE</span>
+</section> <!-- AKHIR HERO -->
 
-<h1>
-Trade Smarter <br>
-With Institutional Insight
-</h1>
+<!-- LIVE MARKET TICKER -->
 
-<p>
-Premium stock intelligence platform delivering high-conviction market insights, live market data, and elite investor community access.
-</p>
+<style>
+.market-ticker-section{
+padding:20px 0;
+background:#050816;
+border-top:1px solid rgba(255,255,255,.05);
+border-bottom:1px solid rgba(255,255,255,.05);
+overflow:hidden;
+}
 
-<div class="hero-buttons">
+.market-title{
+text-align:center;
+font-size:13px;
+font-weight:600;
+letter-spacing:2px;
+color:#5d7fff;
+margin-bottom:15px;
+text-transform:uppercase;
+}
+</style>
 
-<a href="payment.html">
-<button class="btn-primary glow-btn">
-Get Started
-</button>
-</a>
+<section class="market-ticker-section">
 
-<a href="#market">
-<button class="btn-secondary">
-Live Market
-</button>
-</a>
-
+<div class="market-title">
+LIVE MARKET INDONESIA
 </div>
 
-</div>
+<div class="tradingview-widget-container">
+<div class="tradingview-widget-container__widget"></div>
 
-<div class="hero-card">
-
-<div class="market-box">
-<h3>IHSG</h3>
-<span>+1.23%</span>
-</div>
-
-<div class="market-box">
-<h3>Top Gainer</h3>
-<span>+24.88%</span>
-</div>
-
-<div class="market-box">
-<h3>Win Rate</h3>
-<span>89%</span>
-</div>
-
-<div class="market-box">
-<h3>VIP Members</h3>
-<span>12,842</span>
-</div>
+<script
+type="text/javascript"
+src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+async>
+{
+"symbols":[
+{"proName":"IDX:BBRI","title":"BBRI"},
+{"proName":"IDX:BMRI","title":"BMRI"},
+{"proName":"IDX:BBCA","title":"BBCA"},
+{"proName":"IDX:TLKM","title":"TLKM"},
+{"proName":"IDX:GOTO","title":"GOTO"}
+],
+"showSymbolLogo":true,
+"isTransparent":true,
+"displayMode":"adaptive",
+"colorTheme":"dark",
+"locale":"id"
+}
+</script>
 
 </div>
 
 </section>
 
-<div class="ticker-wrapper">
-
-<div class="ticker">
-
-<div class="ticker-item">
-IHSG <span class="green">+1.23%</span>
-</div>
-
-<div class="ticker-item">
-BBCA <span class="green">+4.81%</span>
-</div>
-
-<div class="ticker-item">
-TLKM <span class="green">+2.14%</span>
-</div>
-
-<div class="ticker-item">
-ASII <span class="red">-0.81%</span>
-</div>
-
-<div class="ticker-item">
-GOTO <span class="green">+7.21%</span>
-</div>
-
-<div class="ticker-item">
-AMMN <span class="green">+11.42%</span>
-</div>
-
-</div>
-
-</div>
-
-<section id="market">
+<section class="features">
 
 <div class="section-title">
 
