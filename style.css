@@ -577,3 +577,17 @@ border-color:#1d4fff;
 .testimonial:hover{
 transform:translateY(-8px);
 }
+
+body::before{
+content:'';
+position:fixed;
+width:500px;
+height:500px;
+background:#1d4fff;
+filter:blur(200px);
+opacity:.12;
+top:-150px;
+left:-150px;
+pointer-events:none;
+z-index:-1;
+}
